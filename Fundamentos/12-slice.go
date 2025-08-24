@@ -17,4 +17,8 @@ func main() {
 
 	subslice := frutas[1:3] // Pega elementos do índice 1 ao 2 (3 não incluso)
 	fmt.Println("Subslice de frutas:", subslice)
+
+	frutas[0] = "abacaxi"
+	fmt.Println("Slice de frutas após modificação:", frutas)
+	fmt.Println("Subslice de frutas após modificação:", subslice)
 }
